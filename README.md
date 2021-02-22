@@ -60,6 +60,16 @@ CMake:
 Создать папку build в проекте.
 Создать папку src и пренести туда все проекты.
 
+Прописать строчик в CMakeLists.txt:
+
+cmake_minimum_required(VERSION 3.16)
+
+project(Template_Project)
+
+set(SOURCE main.cpp)
+
+add_executable(${PROJECT_NAME} ${SOURCE})
+
 Генерируем конкретный MakeFile через MinGW:
 PS D:\ProjectCPP\TestCMake\build> cmake ..\src -G "MinGW Makefiles"   
 

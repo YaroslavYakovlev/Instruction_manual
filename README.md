@@ -57,7 +57,8 @@
 CMake:
 
 Для того чтобы собрать проект через CMake необходимо:
-
+Создать папку build в проекте.
+Создать папку src и пренести туда все проекты.
 
 Генерируем конкретный MakeFile через MinGW:
 PS D:\ProjectCPP\TestCMake\build> cmake ..\src -G "MinGW Makefiles"   

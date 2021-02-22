@@ -71,9 +71,11 @@ set(SOURCE main.cpp)
 add_executable(${PROJECT_NAME} ${SOURCE})
 
 Генерируем конкретный MakeFile через MinGW:
+
 PS D:\ProjectCPP\TestCMake\build> cmake ..\src -G "MinGW Makefiles"   
 
 Собрать проект в build:
+
 PS D:\ProjectCPP\TestCMake\build> cmake --build . 
 
 Потом можно запускать стартовый файл из папки build
